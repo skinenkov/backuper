@@ -23,7 +23,7 @@ if [ ! -f "$source" ] && [ ! -d "$source" ]; then
     echoerr "source not found ($source)"
 fi
 
-destination="/tmp/backup"
+destination="/tmp/backups"
 if [ ! -d $destination ]; then
     mkdir -p $destination
 fi
